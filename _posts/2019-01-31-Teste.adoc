@@ -1,0 +1,21 @@
+= Teste
+
+Utilizando HubPress.
+
+Testando novo sistema de _blog_.
+
+:source-highlighter: prettify
+
+[source,javascript]  
+---- 
+function hello(){
+    let y = "hello"
+    var x = 1 + 2;
+}
+----
+
+:hp-image: /covers/cover.png
+
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
