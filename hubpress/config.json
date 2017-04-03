@@ -6,7 +6,7 @@
     "cname": ""
   },
   "theme": {
-    "name": "saga"
+    "name": "casper"
   },
   "urls": {
     "site": "https://Edudjr.github.io",
@@ -25,8 +25,8 @@
     ]
   },
   "site": {
-    "title": "Codando",
-    "description": "Descrição do blog?",
+    "title": "edudjr.github.io",
+    "description": "Shareando códigos",
     "logo": "http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/iMac-icon.png",
     "cover": "http://www.addcovers.com/covers/z8wa5y89cv7uvqi.jpg",
     "delay": "",
