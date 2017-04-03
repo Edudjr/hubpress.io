@@ -6,7 +6,7 @@
     "cname": ""
   },
   "theme": {
-    "name": "casper"
+    "name": "uno"
   },
   "urls": {
     "site": "https://Edudjr.github.io",
@@ -25,12 +25,12 @@
     ]
   },
   "site": {
-    "title": "",
-    "description": "",
-    "logo": "",
-    "cover": "",
+    "title": "Codando",
+    "description": "Descrição do blog?",
+    "logo": "http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/iMac-icon.png",
+    "cover": "http://www.addcovers.com/covers/z8wa5y89cv7uvqi.jpg",
     "delay": "",
-    "postsPerPage": "",
+    "postsPerPage": "5",
     "googleAnalytics": "",
     "disqus": ""
   },
