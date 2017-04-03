@@ -1,0 +1,15 @@
+= Your Blog title
+:hp-image: http://www.clickgratis.com.br/fotos-imagens/coruja/aHR0cHM6Ly9zLW1lZGlhLWNhY2hlLWFrMC5waW5pbWcuY29tL29yaWdpbmFscy84ZC9kMS85MS84ZGQxOTExMjcyNDAwNzNmYmRmYjU3YWUwODg2YWNmZC5qcGc=.jpg
+:published_at: 2017-03-04
+:hp-tags: HubPress, Blog, Open_Source,
+:hp-alt-title: My English Title
+
+Testando um novo post!!
+
+[source, javascript]
+.app.rb
+----
+function hello(){
+	console.log('Hello world!');
+}
+----
