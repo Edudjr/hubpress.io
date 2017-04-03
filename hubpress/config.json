@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "casper"
+    "name": "uno"
   },
   "urls": {
     "site": "https://Edudjr.github.io",
     "hubpress": "https://edudjr.github.io",
-    "theme": "//Edudjr.github.io/themes/saga",
+    "theme": "//Edudjr.github.io/themes/casper",
     "images": "https://Edudjr.github.io/images"
   },
   "initialisationConfigComponent": {
