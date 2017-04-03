@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "the-shell"
+    "name": "saga"
   },
   "urls": {
     "site": "https://Edudjr.github.io",
     "hubpress": "https://edudjr.github.io",
-    "theme": "//Edudjr.github.io/themes/uno",
+    "theme": "//Edudjr.github.io/themes/the-shell",
     "images": "https://Edudjr.github.io/images"
   },
   "initialisationConfigComponent": {
