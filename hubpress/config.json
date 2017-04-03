@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ghostium"
+    "name": "ichi"
   },
   "urls": {
     "site": "https://Edudjr.github.io",
     "hubpress": "https://edudjr.github.io",
-    "theme": "//Edudjr.github.io/themes/uno-zen",
+    "theme": "//Edudjr.github.io/themes/ghostium",
     "images": "https://Edudjr.github.io/images"
   },
   "initialisationConfigComponent": {
