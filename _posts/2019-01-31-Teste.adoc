@@ -16,6 +16,6 @@ function hello(){
 
 image::http://i.imgur.com/YPSXxHG.gif[Testando GIF]  
 // :hp-image: https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg
-// :published_at: 2019-01-31
+// :published_at: 2017-01-31
 // :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
