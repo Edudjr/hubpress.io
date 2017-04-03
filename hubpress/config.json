@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "saga"
+    "name": "uno-zen"
   },
   "urls": {
     "site": "https://Edudjr.github.io",
     "hubpress": "https://edudjr.github.io",
-    "theme": "//Edudjr.github.io/themes/uno",
+    "theme": "//Edudjr.github.io/themes/saga",
     "images": "https://Edudjr.github.io/images"
   },
   "initialisationConfigComponent": {
