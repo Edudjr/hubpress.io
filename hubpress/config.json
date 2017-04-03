@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ichi"
+    "name": "the-shell"
   },
   "urls": {
     "site": "https://Edudjr.github.io",
     "hubpress": "https://edudjr.github.io",
-    "theme": "//Edudjr.github.io/themes/ghostium",
+    "theme": "//Edudjr.github.io/themes/ichi",
     "images": "https://Edudjr.github.io/images"
   },
   "initialisationConfigComponent": {
