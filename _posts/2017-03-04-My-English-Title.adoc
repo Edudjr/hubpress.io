@@ -12,6 +12,6 @@ Testando um novo post!!
 ----
 function hello(){
 	console.log('Hello world!');
-    console.log('Thats all!');
+	console.log('Thats all!');
 }
 ----
