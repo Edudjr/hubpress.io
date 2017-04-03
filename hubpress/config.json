@@ -2,7 +2,8 @@
   "meta": {
     "username": "Edudjr",
     "repositoryName": "edudjr.github.io",
-    "branch": "master"
+    "branch": "master",
+    "cname": ""
   },
   "theme": {
     "name": "casper"
@@ -22,5 +23,27 @@
       null,
       null
     ]
+  },
+  "site": {
+    "title": "",
+    "description": "",
+    "logo": "",
+    "cover": "",
+    "delay": "",
+    "postsPerPage": "",
+    "googleAnalytics": "",
+    "disqus": ""
+  },
+  "socialnetwork": {
+    "email": "eduardo.djr@hotmail.com",
+    "github": "https://github.com/Edudjr",
+    "twitter": "",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "https://www.linkedin.com/in/edudjr/",
+    "stackoverflow": "https://stackoverflow.com/users/3397287/edudjr"
   }
 }
