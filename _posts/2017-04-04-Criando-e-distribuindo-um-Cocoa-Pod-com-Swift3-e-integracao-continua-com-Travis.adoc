@@ -1,6 +1,6 @@
 = Criando e distribuindo um CocoaPod com Swift3 e integração contínua com Travis
 :toc: preamble
-:hp-image: https://drive.google.com/file/d/0B9cyFR-ppWCvNVlaS2NWbU4zZUU/view?usp=sharing
+:hp-image: http://gdurl.com/T0s6
 :published_at: 2017-04-04
 :hp-tags: Cocoapods, Biblioteca, Swift3, Travis
 
