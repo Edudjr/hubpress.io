@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[edudjr.github.io]]></title><description><![CDATA[Shareando códigos]]></description><link>https://Edudjr.github.io</link><image><url>http://www.addcovers.com/covers/z8wa5y89cv7uvqi.jpg</url><title>edudjr.github.io</title><link>https://Edudjr.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Apr 2017 06:04:36 GMT</lastBuildDate><atom:link href="https://Edudjr.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Criando e distribuindo um CocoaPod com Swift3 e integração contínua com Travis]]></title><description><![CDATA[<div id="preamble">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Criando e distribuindo um CocoaPod com Swift3 e integração contínua com Travis</title>
+    <meta name="description" content="" />
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="//Edudjr.github.io/themes/saga/assets/css/style.css?v=1491285876608" rel="stylesheet" type="text/css">
+    <link href="//Edudjr.github.io/themes/saga/assets/css/animate.min.css?v=1491285876608" rel="stylesheet" type="text/css">
+    <link href="https://Edudjr.github.io/favicon.ico" rel="shortcut icon">
+    <link rel="canonical" href="https://Edudjr.github.io/2017/04/04/Criando-e-distribuindo-um-Cocoa-Pod-com-Swift3-e-integracao-continua-com-Travis.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="edudjr.github.io" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Criando e distribuindo um CocoaPod com Swift3 e integração contínua com Travis" />
+    <meta property="og:description" content="Passo a passo. Neste post iremos ver como criar um componente em Swift3 e reaproveitá-lo em futuros projetos, utilizando também ferramentas de integração contínua. Vamos aprender a distribuir esse componente de modo privado, com um repositório pessoal, ou público, através do próprio CocoaPods. Utilizaremos o Github como repositório, já que" />
+    <meta property="og:url" content="https://Edudjr.github.io/2017/04/04/Criando-e-distribuindo-um-Cocoa-Pod-com-Swift3-e-integracao-continua-com-Travis.html" />
+    <meta property="og:image" content="http://gdurl.com/T0s6" />
+    <meta property="article:published_time" content="2017-04-04T00:00:00.000Z" />
+    <meta property="article:tag" content="Cocoapods" />
+    <meta property="article:tag" content="Biblioteca" />
+    <meta property="article:tag" content="Swift3" />
+    <meta property="article:tag" content="Travis" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Criando e distribuindo um CocoaPod com Swift3 e integração contínua com Travis" />
+    <meta name="twitter:description" content="Passo a passo. Neste post iremos ver como criar um componente em Swift3 e reaproveitá-lo em futuros projetos, utilizando também ferramentas de integração contínua. Vamos aprender a distribuir esse componente de modo privado, com um repositório pessoal, ou público, através do próprio CocoaPods. Utilizaremos o Github como repositório, já que" />
+    <meta name="twitter:url" content="https://Edudjr.github.io/2017/04/04/Criando-e-distribuindo-um-Cocoa-Pod-com-Swift3-e-integracao-continua-com-Travis.html" />
+    <meta name="twitter:image:src" content="http://gdurl.com/T0s6" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "edudjr.github.io",
+    "author": {
+        "@type": "Person",
+        "name": "Eduardo Domene Junior",
+        "image": "https://avatars3.githubusercontent.com/u/6642478?v=3",
+        "url": "https://Edudjr.github.io/author/Edudjr/"
+    },
+    "headline": "Criando e distribuindo um CocoaPod com Swift3 e integração contínua com Travis",
+    "url": "https://Edudjr.github.io/2017/04/04/Criando-e-distribuindo-um-Cocoa-Pod-com-Swift3-e-integracao-continua-com-Travis.html",
+    "datePublished": "2017-04-04T00:00:00.000Z",
+    "image": "http://gdurl.com/T0s6",
+    "keywords": "Cocoapods, Biblioteca, Swift3, Travis",
+    "description": "Passo a passo. Neste post iremos ver como criar um componente em Swift3 e reaproveitá-lo em futuros projetos, utilizando também ferramentas de integração contínua. Vamos aprender a distribuir esse componente de modo privado, com um repositório pessoal, ou público, através do próprio CocoaPods. Utilizaremos o Github como repositório, já que"
+}
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="edudjr.github.io" href="https://Edudjr.github.io/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+</head>
+<body class="post-template tag-Cocoapods tag-Biblioteca tag-Swift3 tag-Travis">
+    <header id="header" class="animated fadeIn" style="background-image: url(http://gdurl.com/T0s6)">
+    <div class="header-background">
+    <section class="blog-content">
+        <a id="site-url" class="blog-title" href="https://Edudjr.github.io">edudjr.github.io</a>
+        <span class="blog-description">Shareando códigos</span>
+        <nav class="links fadeIn animated">
+            <ul>
+                <li class="rss"><a title="RSS Feed" href="/rss/"><i class="fa fa-fw fa-rss-square"></i></a></li>
+        
+            </ul>
+        </nav>
+    </section>
+    <section class="header-content">
+        <h1 class="post-title animated fadeInUp">Criando e distribuindo um CocoaPod com Swift3 e integração contínua com Travis</h1>
+        <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="1491274800" datetime="2017-04-04T00:00" title="04 April 2017">3 hours ago</time></span>
+            <span class="tags animated fadeInUp"><i class="fa fa-tags"></i> <a href="https://Edudjr.github.io/tag/Cocoapods/">Cocoapods</a>, <a href="https://Edudjr.github.io/tag/Biblioteca/">Biblioteca</a>, <a href="https://Edudjr.github.io/tag/Swift3/">Swift3</a>, <a href="https://Edudjr.github.io/tag/Travis/">Travis</a></span>
+            <span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="https://Edudjr.github.io/author/Edudjr/">Eduardo Domene Junior</a></span></span>
+    </section>
+    </div>
+</header>
+<main id="main" class="content">
+    <article itemtype="http://schema.org/BlogPosting" class="animated fadeIn content post post tag-Cocoapods tag-Biblioteca tag-Swift3 tag-Travis">
+        <section class="post-content">
+            <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Passo a passo.</p>
@@ -699,4 +784,38 @@ $ git push origin travis-setup</code></pre>
 </div>
 </div>
 </div>
-</div>]]></description><link>https://Edudjr.github.io/2017/04/04/Criando-e-distribuindo-um-Cocoa-Pod-com-Swift3-e-integracao-continua-com-Travis.html</link><guid isPermaLink="true">https://Edudjr.github.io/2017/04/04/Criando-e-distribuindo-um-Cocoa-Pod-com-Swift3-e-integracao-continua-com-Travis.html</guid><category><![CDATA[Cocoapods]]></category><category><![CDATA[Biblioteca]]></category><category><![CDATA[Swift3]]></category><category><![CDATA[Travis]]></category><dc:creator><![CDATA[Eduardo Domene Junior]]></dc:creator><pubDate>Tue, 04 Apr 2017 00:00:00 GMT</pubDate></item></channel></rss>
+</div>
+        </section>
+
+    </article>
+
+</main>
+    <footer class="animated fadeIn" id="footer">
+        <section class="colophon">
+          <section class="copyright">Copyright &copy; <span itemprop="copyrightHolder">edudjr.github.io</span>. <span rel="license">All Rights Reserved</span>.</section>
+          <section class="poweredby">Published with <a class="icon-ghost" href="http://hubpress.io">HubPress</a></section>
+        </section>
+        <section class="bottom">
+          <section class="attribution">
+            <a href="http://github.com/Reedyn/Saga">Built with <i class="fa fa-heart"></i> and Free and Open-Source Software</a>.
+          </section>
+        </section>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+       
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    <script src="//Edudjr.github.io/themes/saga/assets/js/scripts.js?v=1491285876608"></script>
+    
+</body>
+</html>
